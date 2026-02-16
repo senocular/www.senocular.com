@@ -1,0 +1,3 @@
+[submodule "senocular.github.com"]
+	path = senocular.github.com
+	url = https://github.com/senocular/senocular.github.com.git
