@@ -24,6 +24,7 @@ header {
 main {
     max-width: 52rem;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 pre.highlight {
