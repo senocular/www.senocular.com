@@ -25,6 +25,9 @@ main {
     max-width: 52rem;
     margin: 0 auto;
     padding: 0 2rem;
+    img {
+        max-width: 100%;
+    }
 }
 
 pre.highlight {
