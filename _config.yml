@@ -1,6 +1,1 @@
 theme: jekyll-theme-midnight
-defaults:
-  - scope:
-      path: /senocular.github.com/articles/
-    values:
-      permalink: /:basename/
