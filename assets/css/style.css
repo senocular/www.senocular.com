@@ -4,6 +4,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(#335599, #223366);
+    color: white;
+    display: flex;
+    gap: 1em;
+
+    .logo {
+        height: 10rem;
+        margin-top: -1.5rem;
+        margin-bottom: -1.5rem;
+    }
+}
+
 main {
     max-width: 52rem;
     margin: 0 auto;
@@ -15,4 +32,10 @@ pre.highlight {
     padding: 0.5em;
     box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.05);
     overflow: auto;
+}
+
+footer {
+    background: linear-gradient(#335599, #223366);
+    color: white;
+    min-height: 2rem;
 }

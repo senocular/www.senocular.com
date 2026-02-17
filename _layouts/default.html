@@ -9,8 +9,11 @@
 
 <body>
   <header>
-    <h1>{{ site.title | default: site.github.repository_name }}</h1>
-    <p>{{ site.tagline | default: site.description | default: site.github.project_tagline }}</p>
+    <img class="logo" src="assets/images/eye.svg">
+    <div>
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      <p>{{ site.tagline | default: site.description | default: site.github.project_tagline }}</p>
+    </div>
     <hr>
   </header>
   <main>
@@ -18,7 +21,6 @@
       {{ content }}
     </section>
   </main>
-  <hr>
   <footer>
   </footer>
 </body>
