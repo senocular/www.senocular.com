@@ -1,25 +1,26 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  </head>
-  <body>
-    <header>
+<html lang="{{ site.lang | default: " en-US" }}">
 
-    </header>
-    <main>
-      <section>
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.tagline | default: site.description | default: site.github.project_tagline }}</p>
-          <hr>
-        {{ content }}
-      </section>
-      <hr>
-    </main>
-    <footer>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
 
-    </footer>
-  </body>
+<body>
+  <header>
+    <h1>{{ site.title | default: site.github.repository_name }}</h1>
+    <p>{{ site.tagline | default: site.description | default: site.github.project_tagline }}</p>
+    <hr>
+  </header>
+  <main>
+    <section>
+      {{ content }}
+    </section>
+    <hr>
+  </main>
+  <footer>
+  </footer>
+</body>
+
 </html>

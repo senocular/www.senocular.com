@@ -1,1 +1,8 @@
 @import "highlight.css";
+
+pre.highlight {
+    border: 1px solid silver;
+    border-radius: 3px;
+    padding: 0.5em;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.05);
+}

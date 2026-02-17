@@ -2,7 +2,7 @@
 
 ### Updates
 
-It's alive! The site is being revived and will start seeing new content again! This will likely consist of JavaScript examples and learning material, starting off with the articles available on https://senocular.github.io.
+It's alive! The site is being revived and will start seeing new content again! This will likely consist of JavaScript examples and learning material, starting off with the articles available on [senocular.github.io](https://senocular.github.io).
 
 This will be an ongoing process that will take a while to complete. Thank you for your patience.
 
