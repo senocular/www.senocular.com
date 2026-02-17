@@ -1,4 +1,4 @@
-# senocular.com
+# Archive
 
 An archived copy of the blog. 
 
