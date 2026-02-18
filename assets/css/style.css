@@ -38,12 +38,14 @@ main {
     img {
         max-width: 100%;
     }
+    
+    & > section {
+        margin: 0 auto;
+        max-width: 52rem;
+    }
 }
 
-article {
-    margin: 0 auto;
-    max-width: 52rem;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
     margin: 1.5rem 0;
